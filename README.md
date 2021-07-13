@@ -14,3 +14,7 @@ The input parameters for each run are contained in the configuration files locat
 python main.py --config configs/config_a1314.cfg
 ```
 An overview of the configuration file format can be found [here](./configs/README.md).
+
+## Example notebook
+
+A [jupyter notebook](./ContourBins.ipynb) is also provided to illustrate the steps in the contour binning process in a more accessible way.
