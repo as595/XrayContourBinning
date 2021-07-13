@@ -1,6 +1,6 @@
 # Configuration Files
 
-Each configuration file contains the parameters for the model, data, optimiser etc. The format is:
+Each configuration file contains the parameters for the data, binning parameters etc. The format is:
 
 ```text
 [data]
