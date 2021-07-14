@@ -18,3 +18,7 @@ An overview of the configuration file format can be found [here](./configs/READM
 ## Example notebook
 
 A [jupyter notebook](./ContourBins.ipynb) is also provided to illustrate the steps in the contour binning process in a more accessible way.
+
+## Environment
+
+To (optionally) create region files for spectral fitting in XMM-SAS the code requires the XMM-SAS software and its dependencies to be available. The easiest way to achieve this is to use [this Docker image for XMM-Newton SAS](https://gitlab.astro.unige.ch/ferrigno/sas-docker/-/tree/master). If you build the docker container directly from the Dockerfile using the updated [requirements.txt](./container/requirements.txt) file from this repository then there is no need to install additional Python libraries for running the PythonContourBin functions.
