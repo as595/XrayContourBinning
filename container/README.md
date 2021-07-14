@@ -20,3 +20,11 @@ docker build -t contour .
 ```
 
 (or a tag of your choice).
+
+## Using the image
+
+```
+docker run -e HOME=/home/heasoft -v $PWD:/home/heasoft -it sas-new:latest bash 
+```
+
+will allow command line use.
