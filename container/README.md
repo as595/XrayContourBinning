@@ -24,7 +24,7 @@ docker build -t contour .
 ## Using the image
 
 ```
-docker run -e HOME=/home/heasoft -v $PWD:/home/heasoft -it sas-new:latest bash 
+docker run -e HOME=/home/heasoft -v $PWD:/home/heasoft -it contour:latest bash 
 ```
 
 will allow command line use.
